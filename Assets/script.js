@@ -30,7 +30,7 @@ function getWeather1() {
           <br>
             <div class = card border border-5 bg-white>
               <div>${dateString}</div>
-              <div>${temp}&deg;C</div>
+              <div>${temp}&deg;F</div>
               <div>${description}</div>
               <img src="${icon}" alt="${description}">
             </div>
@@ -73,7 +73,7 @@ function getWeather() {
             <br>
               <div  class=" border bg-white rounded-1">
                 <div class="card ">${dayString}</div>
-                <div class="card ">${temp}&deg;C</div>
+                <div class="card ">${temp}&deg;F</div>
                 <div class="card ">${description}</div>
                 <img src="${icon}" alt="${description}">
               </div>
